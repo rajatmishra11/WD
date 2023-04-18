@@ -1,15 +1,23 @@
-*{
+/*  *{
     font-family: monospace;
-}
-
+     }
+*/
 body{
     font-size: 18x;
 }
 
-#first{
+#first>p   /*first ke andar jaao aur paragraph ko select karo*/{
+    color: green;
+}
+
+#first, #second{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: red;
     font-size: 25;
+}
+
+#second{
+    color: aliceblue ;
 }
 
 .purple{
